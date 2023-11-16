@@ -17,7 +17,7 @@
 body {
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
-	background-color: gray;
+	background-color: white;
 }
 
 #container {
@@ -25,6 +25,7 @@ body {
     border-width: 1px;
     margin: 0 auto;
     background-color: #123863;
+	color: gray
 }
 
 
@@ -53,13 +54,13 @@ nav {
 	font-size:2.2em;
 }
 h1 { 
-color:Gray;
+color:white;
 font-size:1.5em;
 padding-top:.5em;
 padding-bottom: .5em;
 }
 nav p{
-	color: gray;
+	color: white;
 	padding-top: 40px;
 	font-size: .65em;
 	
@@ -82,7 +83,7 @@ nav ul {
 
 nav ul li a {
     padding: 20px;
-    color: gray;
+    color: white;
     text-decoration: none;
     display:block;
 }
@@ -97,7 +98,7 @@ nav ul li a:hover {
     width: 446px;
     padding: 10px;
     float: left;
-    color: gray;
+    color: white;
     border-left: 2px solid;
     border-right: 2px solid;    
    
@@ -143,7 +144,7 @@ aside img{
 aside p {
     font-style: italic;
     font-size: 0.9em;
-	color: gray;
+	color: white;
 }
 
 
@@ -159,7 +160,7 @@ h3 {
     text-align: center;
     padding-bottom: .5em;
     padding-top: .5em;
-	color: gray;
+	color: white;
 	font-size: 4em;
 	font-weight: bold;
 	
@@ -199,4 +200,37 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+
+/* Table Styles */
+table.skills {
+	
+	border: 20px inset;
+	font-size: 1em;
+	width: 100%;
+	border-spacing: 0 15px;
+	padding: 10px;
+}
+table.products{
+	color: white;
+	width: 75%;
+	font-size: 1em;
+	margin-left:20px;
+	margin-top: 40px;
+	border-spacing: 0 15px;
+	text-align: center;
+	
+	
+		
+	}
+	
+
+h4{
+	font-size: 2em;
+	margin-top: 65px;
+	padding: 5px;
+	color: white;
+	text-align: center;
+	
 }
