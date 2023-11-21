@@ -263,3 +263,32 @@ div.formRow{
 	-webkit-flex: 1 1 150px;
 	flex: 1 1 150px;
 }
+
+/*Reviews*/
+
+iframe{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: 10px;
+	margin-right: 15px;
+}
+
+p.review1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+p.review2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+p.review3{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+p.review4{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
